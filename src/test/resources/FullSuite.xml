@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="FullSuite">
+    <test name="AllTests">
+        <packages>
+            <package name="test"/>
+            <package name="test.first"/>
+            <package name="test.second"/>
+            <package name="test.third"/>
+            <package name="test.fourth"/>
+            <package name="test.fifth"/>
+        </packages>
+    </test>
+</suite>
